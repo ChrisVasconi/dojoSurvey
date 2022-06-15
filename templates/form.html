@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href=" {{ url_for( 'static', filename='style.css') }} "
+    <title></title>
+</head>
+<body>
+    <div>
+
+        <form action="/process" name="name" method="post">
+            <div>
+            <label for="name" name="name" id="name": </label>
+                <h2> {{session["name"]}}</h2>
+            </div>
+            <div> <label for="name" name="location" id="location"> <h3>
+                Dojo Location: {{session["location"]}}</label></h3> 
+            </div>
+            <div> <label for="name" name="language" id="language">  <h3>Favorite Language: {{session["language"]}}</label></h3>
+            </div>
+            <div> <label for="name" name="comment" id="comment"><h3>Comments: {{session["comment"]}}</label></h3>
+            </div>
+        </form>
+        <a href="/"><button>Back</button></a>
+    </div>
+    
+</body>
+</html>

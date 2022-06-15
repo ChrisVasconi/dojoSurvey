@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    
+}
+
+h1 {
+    font-size: 30px;
+    background-color: black;
+    color: beige;
+    text-align: center;
+}
+
+h2 {
+    background-color: aqua;
+    font-size: 40px;
+}
+
+h3 {
+    background-color: aqua;
+    font-size: 25px
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box {
+    height: 30px;
+    width: 70px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    align-items: center;
+}
+
+
+label, option {
+    height: 30px;
+    width: 40px;
+    font-size: 25px;
+}
+
+input {
+    height: 35px;
+    width: 200px;
+
+}
+
+
+textarea {
+    width: 350px;
+    height: 200px;
+}
